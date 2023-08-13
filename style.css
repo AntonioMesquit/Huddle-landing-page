@@ -152,12 +152,15 @@ body{
     }
     .image1{
      width: 350px;
+     margin-left: 0px;
     }
     .part1{
         width: 350px;
     }
     .part2{
         width: 350px;
+        margin-top: 0px;
+        margin-left: 0px;
     
     }
     .text-container{

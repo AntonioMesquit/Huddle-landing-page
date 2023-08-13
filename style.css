@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/*font-family: 'Poppins', sans-serif;*/
+/*font-family: 'Open Sans', sans-serif;*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: rgb(103, 75, 177);
+    background-size: auto 100%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 3s;
+}
+
+.image1{
+    width: 700px;
+    margin-left: 20px;
+    transition: 3s;
+}
+.logo{
+    display: fle;
+    width: 350px;
+    padding: 60px;
+    margin-bottom: 0.3rem;
+    transition: 3s;
+}
+.card{
+   
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    transition: 3s;
+    
+}
+.unir{
+    display: flex;
+    transition: 3s;
+}
+
+.part2{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 600px;
+    transition: 3s;
+   
+}
+.ta{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    width: 500px;
+    margin-bottom: 30px;
+    transition: 3s;
+}
+.ti2{
+    word-spacing: 2px;
+    width: 520px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: rgba(255, 255, 255, 0.841);
+    transition: 3s;
+}
+
+.x{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    width: 200px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.258);
+    color: hsl(257, 40%, 49%);
+    font-weight: 900;
+    border-radius: 25px;
+    transition: 1s;
+}
+.x:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.438);
+}
+
+.social-links{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    list-style-type: none;
+    transition: 3s;
+}
+.c{
+    border-radius: 50%;
+    border: 2px solid white;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    justify-content: center;
+    transition: 3s;
+}
+.c:hover{
+    transition: 3s;
+    background-color: hsl(300, 69%, 71%);
+}
+.but{
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media screen and (max-width: 1420px){
+    body{
+        background-image: url(images/bg-mobile.svg);
+        height: 900px;
+    }
+    .top{
+        margin-bottom: 100px;
+        padding-bottom: 0px;
+        padding-left: 0;
+        width: 200px;
+    }
+    .card{
+        flex-direction: column  ;
+        margin-left: 0px;
+    }
+    .unir{
+        flex-direction: column;
+    }
+    .social-links{
+        justify-content: center;
+    }
+    .top{
+        height: 120px;
+        margin-bottom: 50px;
+    }
+    .image1{
+     width: 350px;
+    }
+    .part1{
+        width: 350px;
+    }
+    .part2{
+        width: 350px;
+    
+    }
+    .text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+    }
+    
+    .ta{
+        width: 350px;
+        text-align: center;
+    }
+    .ti2{
+        width: 300px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .but{
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-links{
+        margin-bottom: 20px;
+    }
+}
